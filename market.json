@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "liasece's DSH plugins",
+    "zh": "liasece 的 DSH 插件"
+  },
+  "description": {
+    "en": "Personal DeepSeek Harness plugin index. Add it as an index source under Plugins → Discover.",
+    "zh": "liasece 自用的 DeepSeek Harness 插件索引。在「插件 → 发现」里把它添加为索引源即可安装。"
+  },
+  "metadata": {
+    "categories": {
+      "composer": {
+        "title": {
+          "en": "Composer",
+          "zh": "输入框"
+        }
+      }
+    },
+    "labels": {
+      "chinese-first": {
+        "title": {
+          "en": "Chinese first",
+          "zh": "中文优先"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-prompt-candidates",
+      "title": {
+        "en": "Prompt candidates",
+        "zh": "输入框候选"
+      },
+      "description": {
+        "en": "After each turn ends, ask the session's own model for up to two next-message candidates and dock them above the composer. Press Tab to take the first, click one to take it.",
+        "zh": "每回合结束后，用这个会话自己的模型读最近几条消息，生成最多 2 条下一条消息候选，停在输入框上方；按 Tab 采纳第一条，点哪条采纳哪条。条数与会话窗口都能在设置页里改。"
+      },
+      "icon": "icons/dsh-prompt-candidates.svg",
+      "author": "liasece",
+      "homepage": "https://github.com/liasece/dsh-prompt-candidates#readme",
+      "repository": {
+        "url": "https://github.com/liasece/dsh-prompt-candidates"
+      },
+      "metadata": {
+        "category": "composer",
+        "keywords": [
+          "prompt",
+          "suggestion",
+          "candidate",
+          "composer",
+          "tab"
+        ],
+        "labels": [
+          "chinese-first"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794408643,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liasece/dsh-prompt-candidates",
+            "commit": "a0da905ec417c6cbf7fb8a732c0b6a56bcaba4f3"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
