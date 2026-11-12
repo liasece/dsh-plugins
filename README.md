@@ -23,8 +23,7 @@ https://raw.githubusercontent.com/liasece/dsh-plugins/main/market.json
 
 | 插件 | 版本 | 说明 |
 | --- | --- | --- |
-| [`dsh-peak-valley-model`](https://github.com/liasece/dsh-peak-valley-model) | `0.20.0` | 按会话的开关：按 DeepSeek 官方峰谷时段把模型请求路由到你指定的真实路由，时段表与模型在设置页可改。 |
-| [`dsh-prompt-candidates`](https://github.com/liasece/dsh-prompt-candidates) | `0.3.1` | 每回合结束后用会话自己的模型生成最多 2 条下一条消息候选，停在输入框上方；按 Tab 采纳第一条。 |
+| [`oh-my-dsh`](https://github.com/liasece/oh-my-dsh) | `0.1.0` | 三合一：峰谷动态（按会话、按时段换真实路由）、输入框候选（回合结束后给几条下一步）、输入历史（空草稿按 ↑ 召回发过的消息）。三项各有一个总开关，关掉即彻底停手。 |
 
 ## 发布新版本
 

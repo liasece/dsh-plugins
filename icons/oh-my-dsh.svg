@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="OhMyDSH">
+  <title>OhMyDSH</title>
+  <defs>
+    <linearGradient id="omd-route" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#0F172A"/>
+  <!-- 峰谷曲线：按时段换路由 -->
+  <path d="M12 43 L23 26 L32 35 L40 22 L52 43 Z" fill="url(#omd-route)" opacity="0.85"/>
+  <!-- 上箭头：↑ 召回上一条 -->
+  <path d="M32 50 L32 34 M32 34 L26 40 M32 34 L38 40" stroke="#F8FAFC" stroke-width="2.6"
+        stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.92"/>
+  <!-- 候选火花 -->
+  <circle cx="46" cy="17" r="4.2" fill="#F59E0B"/>
+  <circle cx="46" cy="17" r="7" fill="none" stroke="#F59E0B" stroke-width="1.4" opacity="0.55"/>
+</svg>

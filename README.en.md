@@ -23,8 +23,7 @@ https://raw.githubusercontent.com/liasece/dsh-plugins/main/market.json
 
 | Plugin | Version | What it does |
 | --- | --- | --- |
-| [`dsh-peak-valley-model`](https://github.com/liasece/dsh-peak-valley-model) | `0.20.0` | A per-session switch that routes requests to the route of the current peak/off-peak window; timetable and routes are editable on its settings page. |
-| [`dsh-prompt-candidates`](https://github.com/liasece/dsh-prompt-candidates) | `0.3.1` | After each turn ends, ask the session's own model for up to two next-message candidates and dock them above the composer; Tab takes the first. |
+| [`oh-my-dsh`](https://github.com/liasece/oh-my-dsh) | `0.1.0` | Three in one: peak/off-peak routing per session, next-message candidates above the composer, and ↑-recall of previously sent messages. Each feature has its own master switch. |
 
 ## Publishing a version
 

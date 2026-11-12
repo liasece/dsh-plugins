@@ -34,72 +34,34 @@
   },
   "plugins": [
     {
-      "name": "dsh-peak-valley-model",
+      "name": "oh-my-dsh",
       "title": {
-        "en": "Peak-valley model routing",
-        "zh": "峰谷动态"
+        "en": "OhMyDSH",
+        "zh": "OhMyDSH"
       },
       "description": {
-        "en": "A per-session switch that routes model requests to the route of the current DeepSeek peak/off-peak window (Beijing time); the timetable, each window's provider/model, the off-window route and the time zone are all editable on its settings page.",
-        "zh": "按会话的开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把请求路由到你指定的真实路由；时段表、每个时段的 provider/model、时段外路由和判定时区都能在设置页改。它自己不是模型。"
+        "en": "Peak/off-peak model routing, prompt candidates and ↑-recall history in one plugin. Each feature has its own switch on its own settings page, and every field keeps the name it had when the three were separate plugins.",
+        "zh": "峰谷动态、提示词候选、输入历史三合一。每个功能各有自己的设置页和总开关，关掉即彻底停手（不占快捷键、不发请求、不动模型位）；配置沿用三个插件原来的字段名。"
       },
-      "icon": "icons/dsh-peak-valley-model.svg",
+      "icon": "icons/oh-my-dsh.svg",
       "author": "liasece",
-      "homepage": "https://github.com/liasece/dsh-peak-valley-model#readme",
+      "homepage": "https://github.com/liasece/oh-my-dsh#readme",
       "repository": {
-        "url": "https://github.com/liasece/dsh-peak-valley-model"
-      },
-      "metadata": {
-        "category": "routing",
-        "keywords": [
-          "model",
-          "routing",
-          "peak",
-          "off-peak",
-          "timetable",
-          "switch",
-          "session"
-        ],
-        "labels": [
-          "chinese-first"
-        ]
-      },
-      "versions": [
-        {
-          "version": "0.20.0",
-          "publishTimestamp": 1794450428,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/liasece/dsh-peak-valley-model",
-            "commit": "b1c7e6baaa9c0d26257dbfb2bcd0ca9b432b5083"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-prompt-candidates",
-      "title": {
-        "en": "Prompt candidates",
-        "zh": "输入框候选"
-      },
-      "description": {
-        "en": "After each turn ends, ask the session's own model for up to two next-message candidates and dock them above the composer. Press Tab to take the first, click one to take it.",
-        "zh": "每回合结束后，用这个会话自己的模型读最近几条消息，生成最多 2 条下一条消息候选，停在输入框上方；按 Tab 采纳第一条，点哪条采纳哪条。条数与会话窗口都能在设置页里改。"
-      },
-      "icon": "icons/dsh-prompt-candidates.svg",
-      "author": "liasece",
-      "homepage": "https://github.com/liasece/dsh-prompt-candidates#readme",
-      "repository": {
-        "url": "https://github.com/liasece/dsh-prompt-candidates"
+        "url": "https://github.com/liasece/oh-my-dsh"
       },
       "metadata": {
         "category": "composer",
         "keywords": [
-          "prompt",
-          "suggestion",
-          "candidate",
           "composer",
-          "tab"
+          "model",
+          "routing",
+          "peak",
+          "off-peak",
+          "prompt",
+          "candidate",
+          "history",
+          "recall",
+          "switch"
         ],
         "labels": [
           "chinese-first"
@@ -107,12 +69,12 @@
       },
       "versions": [
         {
-          "version": "0.3.1",
-          "publishTimestamp": 1794408643,
+          "version": "0.1.0",
+          "publishTimestamp": 1794458609,
           "source": {
             "type": "git",
-            "url": "https://github.com/liasece/dsh-prompt-candidates",
-            "commit": "a0da905ec417c6cbf7fb8a732c0b6a56bcaba4f3"
+            "url": "https://github.com/liasece/oh-my-dsh",
+            "commit": "93ef922291cfb31163384e31c874c71a56bfb9ae"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
