@@ -40,8 +40,8 @@
         "zh": "峰谷动态"
       },
       "description": {
-        "en": "A switch that routes model requests to one of two routes by DeepSeek's peak and off-peak hours (Beijing time), per session.",
-        "zh": "一个开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把模型请求路由到你指定的两条真实路由之一，按会话生效。它自己不是模型。"
+        "en": "A per-session switch that routes model requests to the route of the current DeepSeek peak/off-peak window (Beijing time); the timetable, each window's provider/model, the off-window route and the time zone are all editable on its settings page.",
+        "zh": "按会话的开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把请求路由到你指定的真实路由；时段表、每个时段的 provider/model、时段外路由和判定时区都能在设置页改。它自己不是模型。"
       },
       "icon": "icons/dsh-peak-valley-model.svg",
       "author": "liasece",
@@ -57,7 +57,8 @@
           "peak",
           "off-peak",
           "timetable",
-          "switch"
+          "switch",
+          "session"
         ],
         "labels": [
           "chinese-first"
@@ -65,12 +66,12 @@
       },
       "versions": [
         {
-          "version": "0.8.0",
-          "publishTimestamp": 1793684519,
+          "version": "0.20.0",
+          "publishTimestamp": 1794450428,
           "source": {
             "type": "git",
             "url": "https://github.com/liasece/dsh-peak-valley-model",
-            "commit": "193138eff79ca2fd574de60c2fd0c294187133d4"
+            "commit": "b1c7e6baaa9c0d26257dbfb2bcd0ca9b432b5083"
           }
         }
       ]
