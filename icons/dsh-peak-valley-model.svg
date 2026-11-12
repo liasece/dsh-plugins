@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="峰谷动态">
+  <title>峰谷动态</title>
+  <defs>
+    <linearGradient id="peak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="valley" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0F172A" opacity="0.06"/>
+  <path d="M10 44 L24 22 L34 34 L42 26 L54 44 Z" fill="url(#peak)" opacity="0.9"/>
+  <path d="M10 50 L24 38 L34 46 L42 40 L54 50 Z" fill="url(#valley)" opacity="0.65"/>
+  <circle cx="24" cy="22" r="3.4" fill="#F8FAFC" stroke="#3B82F6" stroke-width="1.6"/>
+  <circle cx="42" cy="26" r="2.6" fill="#F8FAFC" stroke="#8B5CF6" stroke-width="1.4"/>
+</svg>

@@ -15,6 +15,12 @@
           "en": "Composer",
           "zh": "输入框"
         }
+      },
+      "routing": {
+        "title": {
+          "en": "Model routing",
+          "zh": "模型路由"
+        }
       }
     },
     "labels": {
@@ -27,6 +33,48 @@
     }
   },
   "plugins": [
+    {
+      "name": "dsh-peak-valley-model",
+      "title": {
+        "en": "Peak-valley model routing",
+        "zh": "峰谷动态"
+      },
+      "description": {
+        "en": "A switch that routes model requests to one of two routes by DeepSeek's peak and off-peak hours (Beijing time), per session; the timetable and both routes are editable on its settings page.",
+        "zh": "一个开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把模型请求路由到你指定的两条真实路由之一，按会话生效；时段与每个时段用的模型都能在设置页改。它自己不是模型。"
+      },
+      "icon": "icons/dsh-peak-valley-model.svg",
+      "author": "liasece",
+      "homepage": "https://github.com/liasece/dsh-peak-valley-model#readme",
+      "repository": {
+        "url": "https://github.com/liasece/dsh-peak-valley-model"
+      },
+      "metadata": {
+        "category": "routing",
+        "keywords": [
+          "model",
+          "routing",
+          "peak",
+          "off-peak",
+          "timetable",
+          "switch"
+        ],
+        "labels": [
+          "chinese-first"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.20.0",
+          "publishTimestamp": 1793684519,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liasece/dsh-peak-valley-model",
+            "commit": "193138eff79ca2fd574de60c2fd0c294187133d4"
+          }
+        }
+      ]
+    },
     {
       "name": "dsh-prompt-candidates",
       "title": {

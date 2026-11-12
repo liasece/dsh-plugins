@@ -23,6 +23,7 @@ https://raw.githubusercontent.com/liasece/dsh-plugins/main/market.json
 
 | Plugin | Version | What it does |
 | --- | --- | --- |
+| [`dsh-peak-valley-model`](https://github.com/liasece/dsh-peak-valley-model) | `0.20.0` | Route model requests to one of two routes by DeepSeek's peak and off-peak hours, per session; timetable and routes are editable on its settings page. |
 | [`dsh-prompt-candidates`](https://github.com/liasece/dsh-prompt-candidates) | `0.3.1` | After each turn ends, ask the session's own model for up to two next-message candidates and dock them above the composer; Tab takes the first. |
 
 ## Publishing a version
