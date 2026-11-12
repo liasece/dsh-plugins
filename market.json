@@ -40,8 +40,8 @@
         "zh": "峰谷动态"
       },
       "description": {
-        "en": "A switch that routes model requests to one of two routes by DeepSeek's peak and off-peak hours (Beijing time), per session; the timetable and both routes are editable on its settings page.",
-        "zh": "一个开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把模型请求路由到你指定的两条真实路由之一，按会话生效；时段与每个时段用的模型都能在设置页改。它自己不是模型。"
+        "en": "A switch that routes model requests to one of two routes by DeepSeek's peak and off-peak hours (Beijing time), per session.",
+        "zh": "一个开关：打开后按 DeepSeek 官方的峰谷时段（北京时间）把模型请求路由到你指定的两条真实路由之一，按会话生效。它自己不是模型。"
       },
       "icon": "icons/dsh-peak-valley-model.svg",
       "author": "liasece",
@@ -65,7 +65,7 @@
       },
       "versions": [
         {
-          "version": "0.20.0",
+          "version": "0.8.0",
           "publishTimestamp": 1793684519,
           "source": {
             "type": "git",
